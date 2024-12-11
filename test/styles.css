@@ -1,0 +1,177 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+    max-width: 3000px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    justify-content: flex-start; /* căn tất cả về phía trái */
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;/*kích thước chữ bên trong*/
+    font-weight: bold;/*in đậm chữ bên trong*/
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.social-icons a {
+    margin-left: 10px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    justify-content: flex-start; /* Căn tất cả về phía trái */
+  
+    
+}
+
+.profile-image img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 30px;
+}
+
+.info {
+    max-width: 700px;
+    justify-content: flex-start; /* Căn tất cả về phía trái */
+    line-height: 1.8;
+    margin-left: 50px;
+
+    
+}
+
+.greeting {
+    font-size: 14px;
+    font-weight: bold;
+    color: #f33;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 10px 0;
+    line-height: 1.4;
+}
+
+.stats {
+    display: flex;
+    gap: 50px;/*khoảng các giữa các mục*/
+    margin-top: 30px;
+}
+
+.stat {
+    text-align: center;
+    width: 150px;
+
+}
+
+.stat-number {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f33;
+}
+
+.stat-title {
+    font-size: 14px;
+    color: #777;
+    text-transform: uppercase;
+}
+
+/* About Section */
+.about {
+    text-align: left;
+    margin-bottom: 40px;
+    
+}
+
+.about h2 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.about h2:after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 2px;
+    background-color: #f33;
+    margin: 5px auto;
+    margin-left: 8px;
+}
+
+.about p {
+    max-width: 1000px;
+    color: #555;
+    margin-left: 7px;
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.download-resume {
+
+        display: inline-block;
+        padding: 10px 20px; /* khcachs bên trong nút */
+        color: #f33; /* màu chữ*/
+        font-size: 16px; 
+        font-weight: bold; /* chữ đậm */
+        text-transform: uppercase; /* in hoa */
+        text-decoration: none; /* Xóa gạch chân */
+        border: 2px solid #f33; /* Viền đỏ với độ dày 2px */
+        border-radius: 30px; /* bo tròn góc */
+        background-color: transparent; /* nền trong suốt */
+        cursor: pointer; /* con trỏ chuột dạng nút */
+        transition: background-color 0.3s, color 0.3s; /* hiệu ứng hover */
+        margin-right: 70px;
+    
+}
+
+.download-resume:hover {
+    background-color: #f33;
+    color: white;
+}

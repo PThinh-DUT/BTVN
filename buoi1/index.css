@@ -1,0 +1,16 @@
+/* EXternal*/
+h1,h2,h3,h4 {
+    font-size: small
+}
+.font-small{
+color: crimson;
+}
+.color-blue{
+    color:blue;
+}
+.color-red {
+    color: red !important;
+}
+.color-red.color-blue {
+
+}
