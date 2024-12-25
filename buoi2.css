@@ -1,0 +1,26 @@
+*(
+    font-family: mono
+)
+body{
+    width: 800px;
+    margin: auto;
+}
+h2{
+    text-transform:uppercase;
+    margin :30px ;
+}
+span{
+    border-bottom: 5px;
+    border-bottom: 1px solid;
+}
+button {
+    border: 1px solid;
+    border-radius:20px ;
+    padding: ;
+
+
+    color:red;
+    background-color:white;
+
+
+}

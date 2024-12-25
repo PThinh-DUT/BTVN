@@ -10,8 +10,8 @@ body {
     color: #202020;
 }
 font[color="#EEEEEE"] {
-    color: #000000; /* Đặt màu chính xác (nhạt hơn nhưng dễ nhìn hơn) */
-    font-family: "Courier New", monospace; /* Font giống mã lập trình */
-    font-size: 16px; /* Đảm bảo kích thước chữ đồng đều */
+    color: #000000; 
+    font-family: "Courier New", monospace; 
+    font-size: 16px; 
     font-weight: bold; 
 }
