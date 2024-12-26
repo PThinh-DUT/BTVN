@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: Arial, sans-serif;
+
+        }
+
+        .container {
+            position: relative;
+            width: 600px;
+            height: 400px;
+            background-image: url('https://thaibinh.gov.vn/upload/80571/fck/b1a59b315fc9a3002ce38bbe070ec3f5.jpg');
+            background-size: cover;
+            background-position: center;
+            
+        }
+        .text{
+            position: relative;
+            text-align: center;
+            font-weight: 100;
+            top: 250px;
+            transition: all .5s linear;
+            z-index: 1;
+            opacity: 0;
+           
+        }
+        h1{
+            position: relative;
+            text-align: center;
+            top: 200px;
+            font-weight: 500;
+            transition: all .5s linear;
+            z-index: 1;
+        }
+
+        .container:hover .text {
+            color: white;
+            top: 200px;  
+            opacity: 1;
+        }
+
+        .container:hover h1 {
+            color: white;
+            top: 150px;
+        }
+        .container::after{
+            opacity: 0;
+            top: 0;
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-image: linear-gradient(180deg, transparent, rgb(108, 97, 96)) ;
+            transition: all .3s linear;
+        }
+        .container:hover::after{
+            opacity: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><span style="font-weight: 900;">HOLY</span><span> SADIE</span></h1>
+        <p class="text">SADIE NEVER TOOK HER EYES OFF ME<br>SHE HAD A DARK SOUL.</p>
+    </div>
+</body>
+</html>
